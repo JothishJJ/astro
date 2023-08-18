@@ -1,5 +1,17 @@
 # astro
 
+## 3.0.0-beta.5
+
+### Major Changes
+
+- [#8142](https://github.com/withastro/astro/pull/8142) [`81545197a`](https://github.com/withastro/astro/commit/81545197a32fd015d763fc386c8b67e0e08b7393) Thanks [@natemoo-re](https://github.com/natemoo-re)! - Fixes for the `class:list` directive
+
+  - Previously, `class:list` would ocassionally not be merged the `class` prop when passed to Astro components. Now, `class:list` is always converted to a `class` prop (as a string value).
+  - Previously, `class:list` diverged from [`clsx`](https://github.com/lukeed/clsx) in a few edge cases. Now, `class:list` uses [`clsx`](https://github.com/lukeed/clsx) directly.
+    - `class:list` used to deduplicate matching values, but it no longer does
+    - `class:list` used to sort individual values, but it no longer does
+    - `class:list` used to support `Set` and other iterables, but it no longer does
+
 ## 3.0.0-beta.4
 
 ### Patch Changes
