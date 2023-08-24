@@ -36,6 +36,8 @@ pnpm astro add deno
 
 If you prefer to install the adapter manually instead, complete the following two steps:
 
+### Add dependencies manually
+
 1. Install the Deno adapter to your project’s dependencies using your preferred package manager. If you’re using npm or aren’t sure, run this in the terminal:
 
    ```bash
