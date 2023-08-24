@@ -15,6 +15,8 @@ yarn astro add cloudflare
 pnpm astro add cloudflare
 ```
 
+### Add dependencies manually
+
 If you prefer to install the adapter manually instead, complete the following two steps:
 
 1. Add the Cloudflare adapter to your project's dependencies using your preferred package manager. If you’re using npm or aren’t sure, run this in the terminal:
